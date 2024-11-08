@@ -28,14 +28,17 @@ export default function Header(){
                     </div>
                     <div className='country'>
                         <div>
-                            <p>RU</p>
+                            <div>
+                                <p>RU</p>
+                            </div>
+                            <div>
+                                <p>UA</p>
+                            </div>
+                            <div>
+                                <p>EN</p>
+                            </div>
                         </div>
-                        <div>
-                            <p>UA</p>
-                        </div>
-                        <div>
-                            <p>EN</p>
-                        </div>
+                        
                     </div>
                 </nav>
             </header>

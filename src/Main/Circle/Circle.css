@@ -1,0 +1,19 @@
+.background-circle{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: end
+
+}
+
+.background-circle > div{
+    width: 1300px;
+    height: 1300px;
+    bottom: 100px;
+    left: 1000px;
+    background-color: #64D370;
+    border-radius: 10000px;
+    position: absolute;
+}
