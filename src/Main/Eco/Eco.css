@@ -1,0 +1,33 @@
+.eco{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 206px;
+    height: 140px;
+    text-align: center;
+}
+.eco p{
+    height: 50px;
+}
+.background2{
+    width: 100%;
+    height: 464px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background2 > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5FAFF80;
+    border-radius: 30px;
+}
+.background2 > div > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1166px;
+    height: 140px;
+}

@@ -1,15 +1,13 @@
 import './App.css'
 import { Router, Route, Routes } from 'react-router-dom'
-import Home from './Main/Home/Home'
-import Circle from './Main/Circle/Circle'
+import MainS1 from './Main/MainS1'
 export default function App(){
     return(
         <>
             <main>
-
                 <Routes>
-                    <Route index element={<Home/>}/>
-                    <Route path='/Home' element={<Home/>}/>
+                    <Route index element={<MainS1/>}/>
+                    <Route path='/MainS1' element={<MainS1/>}/>
                 </Routes>
             </main>
         </>
