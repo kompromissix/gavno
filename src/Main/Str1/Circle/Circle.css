@@ -1,10 +1,11 @@
 .background-circle{
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     overflow: hidden;
     display: flex;
-    justify-content: end
+    justify-content: end;
+    z-index: 0;
 }
 
 .background-circle > div{
@@ -15,4 +16,5 @@
     background-color: #64D370;
     border-radius: 10000px;
     position: absolute;
+    z-index: 0;
 }

@@ -14,11 +14,11 @@ export default function Header(){
                     <div className='link-div'>
                         <div className='div-link-div'>
                             <div>
-                                <p>Програмы питания</p>
-                                <p>Бизнес-ланчи</p>
-                                <p><span>Gastro Shop</span></p>
-                                <p>О нас</p>
-                                <p>Блог</p>
+                                <Link>Програмы питания</Link>
+                                <Link>Бизнес-ланчи</Link>
+                                <Link><span>Gastro Shop</span></Link>
+                                <Link>О нас</Link>
+                                <Link>Блог</Link>
                             </div>
                             
                         </div>
