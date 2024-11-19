@@ -15,10 +15,10 @@ export default function Header(){
                         <div className='div-link-div'>
                             <div>
                                 <Link>Програмы питания</Link>
-                                <Link>Бизнес-ланчи</Link>
+                                <Link to='/MainS1'>Бизнес-ланчи</Link>
                                 <Link><span>Gastro Shop</span></Link>
-                                <Link>О нас</Link>
-                                <Link>Блог</Link>
+                                <Link to='/Str2'>О нас</Link>
+                                <Link to='/Str3'>Блог</Link>
                             </div>
                             
                         </div>

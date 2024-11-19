@@ -5,7 +5,8 @@
     overflow: hidden;
     display: flex;
     justify-content: end;
-    z-index: 0;
+    z-index: -1;
+    top: 0px;
 }
 
 .background-circle > div{
@@ -16,5 +17,4 @@
     background-color: #64D370;
     border-radius: 10000px;
     position: absolute;
-    z-index: 0;
 }
