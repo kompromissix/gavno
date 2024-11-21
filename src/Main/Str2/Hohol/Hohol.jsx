@@ -5,32 +5,12 @@ import carrot from '../../Str1/Home/Home-assets/carrot.png'
 import butilka from '../../Str1/Home/Home-assets/Vector.png'
 import meet from '../../Str1/Home/Home-assets/Ellipse103.png'
 import table from '../../Str1/Home/Home-assets/table.png'
-
+import { Left_block } from "../../Str1/Home/Home"
 export default function Hohol(){
     return(
         <>
             <section className="background1">
-                <div className="left">
-                    <div>
-                        <p>Ккал</p>
-                    </div>
-                    <div>
-                        <img src={fish} alt="" />
-                    </div>
-                    <div>
-                        <img src={carrot} alt="" />
-                    </div>
-                    <div>
-                        <img src={butilka} alt="" />
-                    </div>
-                    <div>
-                        <img src={meet} alt="" />
-                    </div>
-                    <div className="column">
-                        <p>5</p>
-                        <img src={table} alt="" />
-                    </div>
-                </div>
+                <Left_block/>
                 <div className="swiper_header">
                     <div className="swiper-header-text">
                         <div>

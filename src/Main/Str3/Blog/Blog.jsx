@@ -8,6 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Link } from 'react-router-dom'
+import { Left_block } from '../../Str1/Home/Home'
 
 export function Blogs(div){
     return(
@@ -18,7 +19,7 @@ export function Blogs(div){
                 <div>
                     <p>{div.date}</p>
                     <div>
-                        <Link>Подробнее</Link>
+                        <Link to='/Str3_blog'>Подробнее</Link>
                         <img src={arrow} alt="" />
                     </div>
                 </div>
@@ -30,6 +31,9 @@ export function Blogs(div){
 export default function Blog(){
     return(
         <>
+            <div className='left-div'>
+                <Left_block/>
+            </div>
             <section className='background-blog'>
                 <div>
                     <div>

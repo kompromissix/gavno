@@ -42,32 +42,39 @@ function Swiper_header(header){
         </>
     )
 }
+export function Left_block(){
+    return(
+        <>
+            <div className="left">
+                <div>
+                    <p>Ккал</p>
+                </div>
+                <div>
+                    <img src={fish} alt="" />
+                </div>
+                <div>
+                    <img src={carrot} alt="" />
+                </div>
+                <div>
+                    <img src={butilka} alt="" />
+                </div>
+                <div>
+                    <img src={meet} alt="" />
+                </div>
+                <div className="column">
+                    <p>5</p>
+                    <img src={table} alt="" />
+                </div>
+            </div>
+        </>
+    )
+}
 
 export default function Home(){
     return(
         <>
             <section className="background1">
-                <div className="left">
-                    <div>
-                        <p>Ккал</p>
-                    </div>
-                    <div>
-                        <img src={fish} alt="" />
-                    </div>
-                    <div>
-                        <img src={carrot} alt="" />
-                    </div>
-                    <div>
-                        <img src={butilka} alt="" />
-                    </div>
-                    <div>
-                        <img src={meet} alt="" />
-                    </div>
-                    <div className="column">
-                        <p>5</p>
-                        <img src={table} alt="" />
-                    </div>
-                </div>
+                <Left_block/>
                 <Swiper className="swiper-home" modules={[Navigation, Pagination, Scrollbar, A11y, Mousewheel]} spaceBetween={50} slidesPerView={1} navigation scrollbar = {{draggable:true}} direction='horizontal' pagination = {{clickable:true}} mousewheel = {{clickable:true}} grabCursor={true}>
                     <SwiperSlide>
                         <Swiper_header {...data[0]}/>
